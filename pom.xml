@@ -9,10 +9,10 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<springframework.version>5.1.9.RELEASE</springframework.version>
-		<hibernate.version>5.4.4.Final</hibernate.version>
-		<mysql.connector.version>8.0.17</mysql.connector.version>
-		<c3po.version>0.9.5.2</c3po.version>
+		<springframework.version>5.2.7.RELEASE</springframework.version>
+		<hibernate.version>5.4.18.Final</hibernate.version>
+		<mysql.connector.version>8.0.21</mysql.connector.version>
+		<c3po.version>0.9.5.3</c3po.version>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
