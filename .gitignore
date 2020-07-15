@@ -4,8 +4,9 @@
 /.project
 
 # IntelliJ IDEA
-/.idea/
-*.iml
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/*.iml
 
 # Maven
 target/
