@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.avalldeperas.springdemo</groupId>
-	<artifactId>maven-spring-hibernate-web-customer-tracker</artifactId>
+	<artifactId>spring-customer-tracker</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
@@ -97,7 +97,7 @@
 
 	<build>
 
-		<finalName>web-customer-tracker</finalName>
+		<finalName>${project.name}</finalName>
 
 		<plugins>
 			<plugin>
@@ -107,7 +107,7 @@
 				<configuration>
 					<server>maven-tomcat-war-deployment-server</server>
 					<url>http://localhost:8080/manager/text</url>
-					<path>/web-customer-tracker</path>
+					<path>/${project.name}</path>
 				</configuration>
 
 			</plugin>

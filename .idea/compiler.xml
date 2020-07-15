@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web-customer-tracker" />
+        <module name="spring-customer-tracker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="web-customer-tracker" target="1.8" />
+      <module name="spring-customer-tracker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
